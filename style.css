@@ -2518,7 +2518,12 @@ button:focus-visible {
     margin-right: auto;    /* Center the card horizontally */
     box-sizing: border-box;
   }
-
+  .timeline-container {
+    max-width: 100%;
+    max-width: 680px;
+    margin: 0 auto 60px;
+    padding: 0 16px;      /* Comfortable side padding */
+  }
   .timeline-badge {
     left: 32px;
     transform: none;
@@ -4165,6 +4170,7 @@ html, body {
     border-radius: 14px;
   }
 }
+
 
 
 
