@@ -325,7 +325,7 @@ body, html {
 /* 📱 Mobile Devices */
 @media (max-width: 767px) {
 
-  .section {
+  .hero-section {
     padding: 50px 18px;
     text-align: center;
   }
@@ -359,12 +359,13 @@ body, html {
 /* 📱 Tablet Devices */
 @media (min-width: 768px) and (max-width: 1024px) {
 
-  .section {
+  .hero-section {
     padding: 60px 30px;
     text-align: center;
   }
 
   .frame {
+    margin-top:0;
     margin-bottom: 14px;
   }
 
@@ -2512,6 +2513,10 @@ button:focus-visible {
     flex-direction: column;
     padding-left: 64px;
     margin-bottom: 48px;
+    max-width: 600px;      /* Limit max width for readability */
+    margin-left: auto;     /* Center the card horizontally */
+    margin-right: auto;    /* Center the card horizontally */
+    box-sizing: border-box;
   }
 
   .timeline-badge {
@@ -4160,5 +4165,6 @@ html, body {
     border-radius: 14px;
   }
 }
+
 
 
