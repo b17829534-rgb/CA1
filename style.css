@@ -262,192 +262,7 @@ body, html {
 }
 
 
-/* ===== RESPONSIVE ===== */
-@media (max-width: 1024px) {
 
-  /* Navbar */
-  .main-navbar {
-    padding: 12px 20px;
-  }
-
-  /* Hero spacing */
-  .home-page .hero-content {
-    max-width: 640px;
-    margin-top: 110px;
-  }
-
-  /* Heading */
-  .home-page h1 {
-    font-size: 40px;
-  }
-
-  /* Description */
-  .home-page .comprehensive-tax {
-    font-size: 18px;
-  }
-
-  /* Features */
-  .home-page .hero-features {
-    gap: 24px;
-    flex-wrap: wrap;
-  }
-
-  /* Buttons */
-  .home-page .frame-2,
-  .home-page .link-button {
-    padding: 14px 28px;
-  }
-
-  .home-page .text-wrapper-7,
-  .home-page .text-wrapper-8 {
-    font-size: 16px;
-  }
-}
-@media (max-width: 768px) {
-
-  /* Navbar */
-  .main-navbar {
-    padding: 10px 16px;
-  }
-
-  /* Hero container */
-  .home-page .hero-content {
-    margin-top: 96px;
-    max-width: 100%;
-  }
-
-  /* Badge */
-  .home-page .trusted-tax-business-wrapper {
-    padding: 6px 14px;
-  }
-
-  .home-page .trusted-tax-business {
-    font-size: 13px;
-  }
-
-  /* Heading */
-  .home-page h1 {
-    font-size: 32px;
-    line-height: 1.3;
-  }
-
-  /* Description */
-  .home-page .comprehensive-tax {
-    font-size: 16px;
-  }
-
-  /* Features */
-  .home-page .hero-features {
-    flex-direction: column;
-    gap: 16px;
-  }
-
-  /* Actions */
-  .home-page .hero-actions {
-    flex-direction: column;
-    gap: 16px;
-  }
-
-  .home-page .frame-2,
-  .home-page .link-button {
-    width: 100%;
-    justify-content: center;
-    padding: 14px 20px;
-  }
-}
-@media (max-width: 480px) {
-
-  .home-page h1 {
-    font-size: 28px;
-  }
-
-  .home-page .comprehensive-tax {
-    font-size: 15px;
-  }
-
-  .home-page .hero-features li {
-    font-size: 13px;
-  }
-}
-/* 📱 Mobile Devices */
-@media (max-width: 767px) {
-
-  .hero-section {
-    padding: 50px 18px;
-    text-align: center;
-  }
-
-  .frame {
-    margin-bottom: 12px;
-  }
-.text-wrapper {
-  display: inline-block; /* Shrinks width to content */
-  font-size: 12px;
-  padding: 6px 14px;
-  letter-spacing: 1px;
-  margin-bottom: 10px; /* Space between this and header */
-  
-  /* Optional: top alignment */
-  vertical-align: top;
-}
-
-  .header-title {
-    font-size: 26px;
-    line-height: 1.3;
-    margin-bottom: 14px;
-  }
-
-  .div {
-    font-size: 14px;
-    line-height: 1.6;
-  }
-
-  .div br {
-    display: none;
-  }
-}
-
-/* 📱 Tablet Devices */
-@media (min-width: 768px) and (max-width: 1024px) {
-
-  .hero-section {
-    padding: 60px 30px;
-    text-align: center;
-  }
-
-  .frame {
-    margin-top:0;
-    margin-bottom: 14px;
-  }
-.text-wrapper {
-  display: inline-block; /* Shrinks width to content */
-  font-size: 12px;
-  padding: 6px 14px;
-  letter-spacing: 1px;
-  margin-bottom: 10px; /* Space between this and header */
-  
-  /* Optional: top alignment */
-  vertical-align: top;
-}
-  
-
-  .header-title {
-    font-size: 36px;
-    line-height: 1.25;
-    margin-bottom: 16px;
-  }
-
-  .div {
-    font-size: 16px;
-    line-height: 1.6;
-    max-width: 620px;
-    margin: 0 auto;
-  }
-
-  .div br {
-    display: none;
-  }
-}
 
 /* our services */
 /* Base */
@@ -575,7 +390,19 @@ body, html {
 .service-card:hover a span {
   transform: translateX(6px);
 }
-
+@media (min-width: 768px) and (max-width: 1024px){
+.hero-section {
+    min-height: 50vh;
+    width: 100%;
+    padding: 30px 40px; /* Comfortable padding for tablets */
+    background: linear-gradient(
+      148deg,
+      rgba(20, 31, 56, 1) 0%,
+      rgba(45, 56, 83, 1) 100%
+    );
+    box-sizing: border-box;
+  }
+}
 /* Button */
 .view-all-btn {
   display: inline-block;
@@ -4221,6 +4048,7 @@ html, body {
     border-radius: 14px;
   }
 }
+
 
 
 
