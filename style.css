@@ -52,6 +52,53 @@ body, html {
   );
   padding: 32px 80px;
 }
+/* ================= Small Mobile Devices (<480px) ================= */
+@media (max-width: 479px) {
+
+  .home-page .section {
+    min-height: 100vh; /* Full viewport height */
+    width: 100%;
+    padding: 16px 12px; /* Minimal padding for small screens */
+    background: linear-gradient(
+      148deg,
+      rgba(20, 31, 56, 1) 0%,
+      rgba(45, 56, 83, 1) 100%
+    );
+    box-sizing: border-box;
+  }
+}
+
+/* ================= Large Mobile Devices (480px–767px) ================= */
+@media (min-width: 480px) and (max-width: 767px) {
+
+  .home-page .section {
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px 16px; /* Slightly more padding for large mobiles */
+    background: linear-gradient(
+      148deg,
+      rgba(20, 31, 56, 1) 0%,
+      rgba(45, 56, 83, 1) 100%
+    );
+    box-sizing: border-box;
+  }
+}
+
+/* ================= Tablet Devices (768px–1024px) ================= */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .home-page .section {
+    min-height: 100vh;
+    width: 100%;
+    padding: 30px 40px; /* Comfortable padding for tablets */
+    background: linear-gradient(
+      148deg,
+      rgba(20, 31, 56, 1) 0%,
+      rgba(45, 56, 83, 1) 100%
+    );
+    box-sizing: border-box;
+  }
+}
 
 /* ===== NAVIGATION ===== */
 
@@ -333,12 +380,16 @@ body, html {
   .frame {
     margin-bottom: 12px;
   }
-
-  .text-wrapper {
-    font-size: 12px;
-    padding: 6px 14px;
-    letter-spacing: 1px;
-  }
+.text-wrapper {
+  display: inline-block; /* Shrinks width to content */
+  font-size: 12px;
+  padding: 6px 14px;
+  letter-spacing: 1px;
+  margin-bottom: 10px; /* Space between this and header */
+  
+  /* Optional: top alignment */
+  vertical-align: top;
+}
 
   .header-title {
     font-size: 26px;
@@ -368,12 +419,17 @@ body, html {
     margin-top:0;
     margin-bottom: 14px;
   }
-
-  .text-wrapper {
-    font-size: 14px;
-    padding: 6px 18px;
-    letter-spacing: 1.2px;
-  }
+.text-wrapper {
+  display: inline-block; /* Shrinks width to content */
+  font-size: 12px;
+  padding: 6px 14px;
+  letter-spacing: 1px;
+  margin-bottom: 10px; /* Space between this and header */
+  
+  /* Optional: top alignment */
+  vertical-align: top;
+}
+  
 
   .header-title {
     font-size: 36px;
@@ -4165,6 +4221,7 @@ html, body {
     border-radius: 14px;
   }
 }
+
 
 
 
