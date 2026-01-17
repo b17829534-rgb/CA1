@@ -1544,6 +1544,7 @@ img {
   background-color: rgba(245, 159, 10, 0.2);
   border-radius: 9999px;
   transition: all 0.3s ease;
+  align-items:center;
 }
 
 .frame:hover {
@@ -1556,6 +1557,7 @@ img {
   color: #f59f0a;
   font-size: 14px;
   text-align: center;
+  align-items: center;
   letter-spacing: 0;
   line-height: 18px;
 }
@@ -4038,6 +4040,7 @@ html, body {
     border-radius: 14px;
   }
 }
+
 
 
 
