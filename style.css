@@ -2364,7 +2364,7 @@ button:focus-visible {
   }
 
   .timeline-content {
-    width: calc(50% - 50px);
+    width: 100;
     padding: 20px 22px;
   }
 
@@ -2416,7 +2416,7 @@ button:focus-visible {
 
   .timeline-content {
     width: 100%;
-    padding: 14px 14px;
+    padding: 16px 18px;
     margin-top: 14px;
     text-align: left;
   }
@@ -4048,6 +4048,7 @@ html, body {
     border-radius: 14px;
   }
 }
+
 
 
 
